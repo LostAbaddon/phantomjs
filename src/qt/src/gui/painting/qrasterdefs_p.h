@@ -867,9 +867,9 @@ QT_FT_BEGIN_HEADER
   /*                                                                       */
   typedef struct  QT_FT_Span_
   {
-    short           x;
+    int             x;
     unsigned short  len;
-    short y;
+    int             y;
     unsigned char   coverage;
   } QT_FT_Span;
 
